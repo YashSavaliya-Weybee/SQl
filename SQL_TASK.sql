@@ -12,7 +12,7 @@ select DISTINCT JOB_ID
 from EMPLOYEES;
 
 --5
-select EMPLOYEE_ID, SALARY AS OLDsALARY, (SALARY+(SALARY*0.155)) AS NewSalary, (SALARY*0.155) AS Increment 
+select EMPLOYEE_ID, SALARY AS Old_Salary, (SALARY+(SALARY*0.155)) AS New_Salary, (SALARY*0.155) AS Increment 
 from EMPLOYEES;
 
 --6 
